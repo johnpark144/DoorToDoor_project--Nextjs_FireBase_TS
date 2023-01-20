@@ -44,13 +44,7 @@ const ResetCenterView = ({ selectPosition }: MapsProps) => {
 };
 
 // Default Function
-export default function Maps({
-  selectPosition,
-  editMode,
-  setEditMode,
-  isSatellite,
-  seeMenu,
-}: MapsProps) {
+export default function Maps({ selectPosition, editMode, setEditMode, isSatellite, seeMenu }: MapsProps) {
   const locationSelection: L.LatLngExpression = selectPosition
     ? [selectPosition?.lat, selectPosition?.lon]
     : [0, 0];
