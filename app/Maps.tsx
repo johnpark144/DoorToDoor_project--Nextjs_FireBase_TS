@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { allMarkedDataInfo } from "../store/store";
+import { allMarkedDataInfo, isFocusedInfo } from "../store/store";
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import { collection, GeoPoint, query, getDocs } from "firebase/firestore";
@@ -43,8 +43,14 @@ const ResetCenterView = ({ selectPosition }: MapsProps) => {
   return null;
 };
 
-// ######## Default Function
-export default function Maps({ selectPosition, editMode, setEditMode, isSatellite, seeMenu }: MapsProps) {
+// Default Function
+export default function Maps({
+  selectPosition,
+  editMode,
+  setEditMode,
+  isSatellite,
+  seeMenu,
+}: MapsProps) {
   const locationSelection: L.LatLngExpression = selectPosition
     ? [selectPosition?.lat, selectPosition?.lon]
     : [0, 0];
@@ -57,13 +63,13 @@ export default function Maps({ selectPosition, editMode, setEditMode, isSatellit
 
   // Redux State (User, Date, MarkedData)
   const userObjStatus = useSelector(
-    (state: userInfoStateProps) => state?.userObjSlice
+    (state: UserInfoStateProps) => state?.userObjSlice
   );
   const dateStatus = useSelector(
-    (state: dateInfoStateProps) => state?.dateSlice
+    (state: DateInfoStateProps) => state?.dateSlice
   );
   const allMarkedDataStatus = useSelector(
-    (state: allMarkedDataInfoStateProps) => state?.allMarkedDataSlice
+    (state: AllMarkedDataInfoStateProps) => state?.allMarkedDataSlice
   );
 
   // Change to Geopoint Form to save them in Firebase
@@ -125,7 +131,7 @@ export default function Maps({ selectPosition, editMode, setEditMode, isSatellit
   };
 
   return (
-    <div className="h-full">
+    <div onClick={()=>dispatch(isFocusedInfo(false))} className="h-full">
       {editMode ? (
         // Edit-Mode Menu
         <MapEditMenu
