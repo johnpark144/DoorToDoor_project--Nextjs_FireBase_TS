@@ -44,7 +44,7 @@ export default function Home() {
           ""
         )}
         {/* Map */}
-        <div className="w-[100vw] h-full">
+        <div className="w-[98vw] xl:w-[100vw] h-full">
           {!editMode ? (
             <Maps selectPosition={selectPosition} isSatellite={isSatellite} />
           ) : (
