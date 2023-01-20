@@ -7,7 +7,8 @@
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
 - TileLayer API (https://cloud.maptiler.com/) -> Many kind of map
 
-- Explantion : experience, middle ground between DoorToDoor user and neighborhood, not to bother neighborhood
+- Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither,
+since we bother them. so I first of all learned to handle Map and Calender and then came to build this web site for both end, You can check
 
 - Comment language : English
 
@@ -32,13 +33,14 @@
 - Map (leaflet, OpenStreetMap)
 - Search Address and Locate a pin in the Map
 - Edit Mode
-1) Date pick from Calender and input the Date (Default : today)
-2) Switch Marker Color (Blue marker or Green marker)
-3) Putting marker on the Map and Save it
-4) Cancel
-5) Return
+1. Date pick from Calender and input the Date (Default : today)
+2. Switch Marker Color (Blue marker or Green marker)
+3. Putting marker on the Map and Save it
+4. Cancel
+5. Return
 - Popup on marker (Date, Timeago, Pointer's Name, Info that Pointer input)
 - Popup Edit Mode (Edit Info, Delete Marker -> only In case of you being Pointer) 
+- Marker opacity : over 6 month ->  0.6 / over 1 year ->  0.3 / over 1 year -> disapear
 
 
 # Sample pictures
