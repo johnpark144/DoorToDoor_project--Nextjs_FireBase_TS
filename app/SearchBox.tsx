@@ -2,11 +2,14 @@ import { useState } from "react";
 import fetch, { RequestInit } from "node-fetch";
 import { AiOutlineSearch } from "react-icons/ai";
 import { ImCancelCircle } from "react-icons/im";
+import { useDispatch } from 'react-redux';
+import { isFocusedInfo } from "../store/store";
 
 // Default Function
 export default function SearchBox({ setSelectPosition }: SearchBoxProps) {
   const [searchText, setSearchText] = useState("");
   const [listPlace, setListPlace] = useState([]);
+  const dispatch = useDispatch();
 
   // Function When search
   const searchMap = async () => {
@@ -50,6 +53,7 @@ export default function SearchBox({ setSelectPosition }: SearchBoxProps) {
               }
             }}
             onChange={(e) => setSearchText(e.target.value)}
+            onFocus={() => dispatch(isFocusedInfo(true))}
           />
           {/* Search button */}
           <div className="flex items-center relative -left-12">
@@ -70,7 +74,7 @@ export default function SearchBox({ setSelectPosition }: SearchBoxProps) {
         </div>
         {/* Result List */}
         <ul>
-          {listPlace.map((item: selectPosition) => {
+          {listPlace.map((item: SelectPosition) => {
             return (
               <li
                 key={item?.place_id}
@@ -93,3 +97,5 @@ export default function SearchBox({ setSelectPosition }: SearchBoxProps) {
     </>
   );
 }
+
+
