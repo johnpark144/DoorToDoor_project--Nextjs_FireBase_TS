@@ -8,7 +8,7 @@
 - TileLayer API (https://cloud.maptiler.com/) -> Many kind of map
 
 - Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither,
-since we bother them. so I first of all learned to handle Map and Calender and then came to build this web site for both end, You can check
+since they were bothered. so I first of all learned to handle Map and Calender and then came to build this web site for both end by my experience and idea, You can check markers that other visited and You can also marked and leave some comment. Marker will fade overtime, and disapear over 2years.
 
 - Comment language : English
 
@@ -21,7 +21,7 @@ since we bother them. so I first of all learned to handle Map and Calender and t
 
 # Ps, FYI
 - Since I will personally use this cusomizing my needs, I didn't allow Oauth-signup,
- and plus I made common password to let only my people know for the site security, sorry for disconvenience and please bear with me
+ and plus I made common password to let only my people know for the site security, Sorry for disconvenience and Please bear with me
 - I will deploy 2 websites with this, one for public and portfolio and one for my people who will personally use with 2 different common password and DataBase
 - Public Website's Common Password is "1948"
 
