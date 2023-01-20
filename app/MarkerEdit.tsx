@@ -1,17 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  addDoc,
-  collection,
-  GeoPoint,
-  query,
-  doc,
-  where,
-  getDocs,
-  updateDoc,
-  deleteDoc,
-} from "firebase/firestore";
+import { addDoc, collection, GeoPoint, query, doc, where, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
 import { dbService } from "../fBase";
 import { allMarkedDataInfo } from "../store/store";
 
