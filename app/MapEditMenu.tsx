@@ -1,12 +1,19 @@
-import React from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { dbService } from "../fBase";
 import { AiFillSave } from "react-icons/ai";
 import { MdCancelPresentation } from "react-icons/md";
 import { BsArrowReturnLeft } from "react-icons/bs";
 
-export default function MapEditMenu({ setIsGreenMarker, isGreenMarker, marked, 
-userObjStatus, dateStatus, setEditMode, setMarkers, markers }: MapEditMenuProps) {
+export default function MapEditMenu({
+  setIsGreenMarker,
+  isGreenMarker,
+  marked,
+  userObjStatus,
+  dateStatus,
+  setEditMode,
+  setMarkers,
+  markers,
+}: MapEditMenuProps) {
   return (
     <div className="text-2xl flex justify-evenly px-4 py-2">
       {/* Green Marker Mode */}
@@ -90,5 +97,4 @@ userObjStatus, dateStatus, setEditMode, setMarkers, markers }: MapEditMenuProps)
     </div>
   );
 }
-
 
