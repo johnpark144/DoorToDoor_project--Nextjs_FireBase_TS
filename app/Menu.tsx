@@ -45,5 +45,3 @@ export default function Menu({ setEditMode, editMode }: MenuProps) {
     </>
   );
 }
-
-
