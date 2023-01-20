@@ -43,7 +43,6 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 - Popup Edit Mode (Edit Detail Info, Delete Marker -> only In case of you being Pointer) 
 - Marker opacity : over 6 month ->  0.6 / over 1 year ->  0.3 / over 2 year -> disapear
 
-
 # Sample pictures
 - Home and Search
 ![Home,Search](https://user-images.githubusercontent.com/106279616/213786393-cbe7d301-83e3-4a2f-9c6d-82d8c04fc02f.png)
@@ -53,9 +52,16 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 ![Firebase](https://user-images.githubusercontent.com/106279616/213785520-718a13bd-81ab-4a1f-a9c8-8a1e89e0cccf.png)
 
 
-
 # Sample videos
 
-<h3> 1.  </h3>
+<h3> 1.Search, Switch Map </h3>
 <video src=""></video>
 
+<h3> 2.Put Markers (Edit Mode) </h3>
+<video src=""></video>
+
+<h3> 3.Delete, Edit Detail, View in Deferent Account </h3>
+<video src=""></video>
+
+<h3> 4.Signup, Login </h3>
+<video src=""></video>
