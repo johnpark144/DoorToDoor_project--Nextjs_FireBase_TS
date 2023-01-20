@@ -32,6 +32,7 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 - Navigation bar(Header)
 - Map (leaflet, OpenStreetMap)
 - Search Address and Locate a pin in the Map
+- Swicth Map (Regular, Satellite) 
 - Edit Mode
 1) Date pick from Calender and input the Date (Default : today)
 2) Switch Marker Color (Blue marker or Green marker)
