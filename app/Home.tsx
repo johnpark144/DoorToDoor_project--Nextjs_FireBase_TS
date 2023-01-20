@@ -3,8 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Menu from "./Menu";
 import dynamic from "next/dynamic";
-// Import witout SSR // To prevent from Error "window is not defined"
-const Maps = dynamic(() => import("./Maps"), { ssr: false }); 
+const Maps = dynamic(() => import("./Maps"), { ssr: false }); // Import witout SSR // To prevent from Error "window is not defined"
 
 export default function Home() {
   const [selectPosition, setSelectPosition] = useState();
