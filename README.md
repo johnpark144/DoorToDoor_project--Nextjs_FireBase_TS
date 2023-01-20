@@ -2,7 +2,7 @@
 - Website Link : 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), FireBase, TypeScript
-- Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, React-date-range, React-timeago, PhotoShop
+- Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, React-date-range, React-timeago, PhotoShop
 
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
 
