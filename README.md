@@ -2,9 +2,10 @@
 - Website Link : 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), FireBase, TypeScript
-- Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, React-date-range, React-timeago, PhotoShop
+- Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
 
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
+- TileLayer API (https://cloud.maptiler.com/) -> Many kind of map
 
 - Explantion : experience, middle ground between DoorToDoor user and neighborhood, not to bother neighborhood
 
@@ -25,20 +26,20 @@
 
 # Functions
 - Responsive Website
-- Navigation bar(Header), Footer(for little width)
-- Home Animation(Explanation)
-- Search and Genre Video
-- Preview video When Mouse is over the thumbnail for 2 secs
-- History (Watch, Delete, Delete All)
-- Watch later (Watch, Delete)
-- Save and delete videos into Watch later with Drag & Drop
-- Save videos from video detail into Watch later and the Notification
-- Video Detail
-- Related Videos(from API), Other Videos(from the data before you click the video)
-- Channel Detail
-- Date(time) to Timeageo
-- Dark Mode
-- Spinner Loading, Animate-pulse Loading
+- Auth (SignIn, Login, Logout)
+- Spinner Loading
+- Navigation bar(Header)
+- Map (leaflet, OpenStreetMap)
+- Search Address and Locate a pin in the Map
+- Edit Mode
+1) Date pick from Calender and input the Date (Default : today)
+2) Switch Marker Color (Blue marker or Green marker)
+3) Putting marker on the Map and Save it
+4) Cancel
+5) Return
+- Popup on marker (Date, Timeago, Pointer's Name, Info that Pointer input)
+- Popup Edit Mode (Edit Info, Delete Marker -> only In case of you being Pointer) 
+
 
 # Sample pictures
 - 
