@@ -2,10 +2,7 @@
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import { addDoc, collection } from "firebase/firestore";
-import {
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-} from "firebase/auth";
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { authService, dbService } from "../../fBase";
 import Image from "next/image";
 
@@ -31,17 +28,8 @@ export default function page() {
       if (newAccount) {
         // Sign-up mode
         if (password === password2) {
-          data = await createUserWithEmailAndPassword(
-            authService,
-            email,
-            password
-          );
-          const memberObj = {
-            email,
-            firstname,
-            lastname,
-            birthDay,
-          }; // To add docs : Database -> Rule -> allow read, write: if true; (input at firestore)
+          data = await createUserWithEmailAndPassword( authService, email, password );
+          const memberObj = { email, firstname, lastname, birthDay }; // To add docs : Database -> Rule -> allow read, write: if true; (input at firestore)
           await addDoc(collection(dbService, "members"), memberObj);
           alert("Signup success!");
           setNewAccount(false);
@@ -93,10 +81,7 @@ export default function page() {
   return (
     <>
       <div className="flex h-[95vh] justify-center items-center">
-        <div
-          className="p-12 items-center w-[680px] rounded-xl self-center
-group flex-col space-y-6 bg-white bg-opacity-50 shadow-2xl"
-        >
+        <div className="p-12 items-center w-[680px] rounded-xl self-center group flex-col space-y-6 bg-white bg-opacity-50 shadow-2xl">
           {/* Logo and DoorToDoor */}
           <div className="flex items-center">
             <div className="relative w-28 h-10">
