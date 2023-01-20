@@ -19,6 +19,18 @@ export default function page() {
   const [newAccount, setNewAccount] = useState(false);
 
   const router = useRouter();
+  
+   // If already Login, Send to Home
+  useEffect(() => {
+    const loginCheck = () => {
+      onAuthStateChanged(authService, async (user) => {
+        if (user) {
+          router.push("/");
+        }
+      });
+    };
+    loginCheck();
+  }, []);
 
   // Submit
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
