@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addDoc, collection, GeoPoint, query, doc, where, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
@@ -14,10 +13,10 @@ export default function MarkerEdit({ markedData }: MarkerEdit) {
 
   // Redux State (User, Date, MarkedData)
   const userObjStatus = useSelector(
-    (state: userInfoStateProps) => state?.userObjSlice
+    (state: UserInfoStateProps) => state?.userObjSlice
   );
   const allMarkedDataStatus = useSelector(
-    (state: allMarkedDataInfoStateProps) => state?.allMarkedDataSlice
+    (state: AllMarkedDataInfoStateProps) => state?.allMarkedDataSlice
   );
   
    // Call Datas with Same latitude, longitude
