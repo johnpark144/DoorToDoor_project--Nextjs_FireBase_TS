@@ -2,14 +2,7 @@
 import { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { allMarkedDataInfo } from "../store/store";
-import {
-  MapContainer,
-  Marker,
-  Popup,
-  TileLayer,
-  useMap,
-  useMapEvents,
-} from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import { collection, GeoPoint, query, getDocs } from "firebase/firestore";
 import { dbService } from "../fBase";
@@ -51,13 +44,7 @@ const ResetCenterView = ({ selectPosition }: MapsProps) => {
 };
 
 // Default Function
-export default function Maps({
-  selectPosition,
-  editMode,
-  setEditMode,
-  isSatellite,
-  seeMenu,
-}: MapsProps) {
+export default function Maps({ selectPosition, editMode, setEditMode, isSatellite, seeMenu }: MapsProps) {
   const locationSelection: L.LatLngExpression = selectPosition
     ? [selectPosition?.lat, selectPosition?.lon]
     : [0, 0];
