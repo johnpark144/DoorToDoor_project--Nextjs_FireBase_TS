@@ -212,5 +212,3 @@ group flex-col space-y-6 bg-white bg-opacity-50 shadow-2xl"
     </>
   );
 }
-
-
