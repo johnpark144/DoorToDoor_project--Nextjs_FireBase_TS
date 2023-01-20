@@ -1,5 +1,5 @@
 # DoorToDoor_project--Nextjs_FireBase_TS
-- Website Link : 
+- Website Link : https://doortodoor-94ikyqnb5-johnpark144.vercel.app/
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), FireBase, TypeScript
 - Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
@@ -15,9 +15,9 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 - Date of creation : Jan 11th ~ Jan 19th 2023
 - Date of debugging : Jan 19th ~ Jan 20th 2023 (clean code, fix error, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone)
-- Date of upload : Jan 20th 
-- Date of deployment : 
-- Deployment Tool :
+- Date of upload : Jan 20th 2023
+- Date of deployment : Jan 20th 2023
+- Deployment Tool : Vercel
 
 # Ps, FYI
 - Since I will personally use this cusomizing my needs, I didn't allow Oauth-signup,
