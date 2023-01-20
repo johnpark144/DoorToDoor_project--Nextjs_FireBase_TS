@@ -3,12 +3,7 @@ import SearchBox from "./SearchBox";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsMap } from "react-icons/bs";
 
-export default function Navbar({
-  setSelectPosition,
-  setSeeMenu,
-  setIsSatellite,
-  isSatellite,
-}: NavbarProps) {
+export default function Navbar({ setSelectPosition, setSeeMenu, setIsSatellite, isSatellite }: NavbarProps) {
   return (
     <>
       {/* Navbar */}
