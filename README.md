@@ -45,7 +45,13 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 
 
 # Sample pictures
-- 
+- Home and Search
+![Search](https://user-images.githubusercontent.com/106279616/213785445-a8b79597-ce2e-471c-864f-6532d69dea1a.png)
+- Edit Mode
+![Edit](https://user-images.githubusercontent.com/106279616/213785475-98868196-84a2-488d-b783-e033125719c5.png)
+- FireBase
+![Firebase](https://user-images.githubusercontent.com/106279616/213785520-718a13bd-81ab-4a1f-a9c8-8a1e89e0cccf.png)
+
 
 
 # Sample videos
