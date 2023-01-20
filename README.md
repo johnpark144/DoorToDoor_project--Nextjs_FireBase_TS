@@ -33,11 +33,11 @@ since we bother them. so I first of all learned to handle Map and Calender and t
 - Map (leaflet, OpenStreetMap)
 - Search Address and Locate a pin in the Map
 - Edit Mode
-1. Date pick from Calender and input the Date (Default : today)
-2. Switch Marker Color (Blue marker or Green marker)
-3. Putting marker on the Map and Save it
-4. Cancel
-5. Return
+1) Date pick from Calender and input the Date (Default : today)
+2) Switch Marker Color (Blue marker or Green marker)
+3) Putting marker on the Map and Save it
+4) Cancel
+5) Return
 - Popup on marker (Date, Timeago, Pointer's Name, Info that Pointer input)
 - Popup Edit Mode (Edit Info, Delete Marker -> only In case of you being Pointer) 
 - Marker opacity : over 6 month ->  0.6 / over 1 year ->  0.3 / over 1 year -> disapear
