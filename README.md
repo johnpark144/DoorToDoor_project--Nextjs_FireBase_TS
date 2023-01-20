@@ -5,7 +5,7 @@
 - Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
 
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
-- TileLayer API (https://cloud.maptiler.com/) -> Many kind of map
+- TileLayer API (https://cloud.maptiler.com/) -> Many kind of maps
 
 - Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither,
 since they were bothered. so I first of all learned to handle Map and Calender and then came to build this web site for both end by my experience and idea, You can check markers that other visited and You can also marked and leave some comment. Marker will fade overtime, and disapear over 2years.
