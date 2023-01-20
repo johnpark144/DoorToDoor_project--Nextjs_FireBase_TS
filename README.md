@@ -40,7 +40,7 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 4) Cancel
 5) Return
 - Popup on marker (Date, Timeago, Pointer's Name, Info that Pointer input)
-- Popup Edit Mode (Edit Info, Delete Marker -> only In case of you being Pointer) 
+- Popup Edit Mode (Edit Detail Info, Delete Marker -> only In case of you being Pointer) 
 - Marker opacity : over 6 month ->  0.6 / over 1 year ->  0.3 / over 2 year -> disapear
 
 
