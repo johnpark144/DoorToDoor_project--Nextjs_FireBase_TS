@@ -33,6 +33,7 @@ export default function page() {
           await addDoc(collection(dbService, "members"), memberObj);
           alert("Signup success!");
           setNewAccount(false);
+          setError("");
         } else {
           throw new Error("----------Error(auth/passwords-not-matched)-");
         }
