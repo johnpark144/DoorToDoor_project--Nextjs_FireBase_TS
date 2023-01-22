@@ -53,7 +53,6 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 
 
 # Sample videos
-
 <h3> 1. Search, Switch Map </h3>
 <video src="https://user-images.githubusercontent.com/106279616/213798582-96fc4ded-baf3-4d41-83b8-53490b474d47.mp4"></video>
 
