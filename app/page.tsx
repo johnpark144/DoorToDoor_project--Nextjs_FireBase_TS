@@ -45,7 +45,7 @@ export default function Page() {
     loginStart();
   }, []);
 
-  const status = useSelector((state: userInfoStateProps) => state?.userObjSlice);
+  const status = useSelector((state: UserInfoStateProps ) => state?.userObjSlice);
   return (
     <>
       {status ? (
