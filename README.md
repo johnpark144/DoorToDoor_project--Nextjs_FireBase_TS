@@ -1,5 +1,5 @@
 # DoorToDoor_project--Nextjs_FireBase_TS
-- Website Link : https://doortodoor.vercel.app/ (fix it soon)
+- Website Link : https://port-0-doortodoor-1jx7m2gldonqeix.gksl1.cloudtype.app/
 - Backend (firebase for me) : https://console.firebase.google.com/u/0/project/doortodoor-e6943/firestore/data/~2FmarkedDataDetail~2F7Om2QvmfVib5f9vD46Ib
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), FireBase, TypeScript
@@ -16,9 +16,9 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 - Date of creation : Jan 11th ~ Jan 19th 2023
 - Date of debugging : Jan 19th ~ Jan 20th 2023 (clean code, fix error, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone)
-- Date of upload : Jan 20th 2023
+- Date of upload : <strike>Jan 20th</strike> -> Feb 3rd 2023
 - Date of deployment : Jan 20th 2023
-- Deployment Tool : Vercel
+- Deployment Tool : <strike>Vercel</strike> ->  Cloudtype
 
 # Ps, FYI
 - Since I will personally use this cusomizing my needs, I didn't allow Oauth-signup,
