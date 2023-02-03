@@ -1,4 +1,4 @@
-type selectPosition = {
+type SelectPosition = {
     address: object;
     boundingbox: Array<string>;
     class: string;
@@ -19,27 +19,31 @@ type MapsProps = {
     setEditMode?: Dispatch<SetStateAction<boolean>>;
     isSatellite?: boolean;
     seeMenu?: boolean;
-};
+}
 
 type SearchBoxProps = {
     setSelectPosition : Dispatch<SetStateAction<selectPosition>>;
-};
+}
 
-type userInfoStateProps = {
+type UserInfoStateProps = {
     userObjSlice : {
         userName: string,
         email: string,
         uid: string,
     }
-};
+}
 
-type dateInfoStateProps = {
+type DateInfoStateProps = {
     dateSlice : Date;
-};
+}
 
-type allMarkedDataInfoStateProps = {
-    allMarkedDataSlice: Array<Array<any>>
-};
+type AllMarkedDataInfoStateProps = {
+    allMarkedDataSlice: Array<Array<any>>;
+}
+
+type IsFocusedInfoStateProps = {
+    isFocusedSlice: boolean;
+}
 
 type AuthOnChangeProps = {
   target: { 
@@ -65,20 +69,20 @@ type MapEditMenuProps = {
 
 type MarkerEdit = {
     markedData: Array;
-};
+}
 
 type GeoPointArr = {
     geoPointValue: { latitude: number; longitude: number; };
-};
+}
 
 type MenuProps = {
     setEditMode: Dispatch<SetStateAction<boolean>>;
     editMode: boolean;
-};
+}
 
 type NavbarProps = {
     setSelectPosition: Dispatch<SetStateAction<selectPosition>>;
     setSeeMenu:  Dispatch<SetStateAction<boolean>>;
     setIsSatellite: Dispatch<SetStateAction<boolean>>;
     isSatellite: boolean;
-};
+}
