@@ -179,7 +179,7 @@ export default function page() {
                 value={commonPassword}
                 name="commonPassword"
                 type="password"
-                placeholder="Temporalily Common Password -> (1948)"
+                placeholder="Common Password->(1948) temporarily"
                 className={commonClass}
               />
             )}
