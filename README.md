@@ -5,6 +5,7 @@
 - Main Tools : Next JS (ver 13), TypeScript
 - CSS : Tailwind CSS
 - Sub Tools : FireBase, Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
+- Bundler : Webpack
 
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
 - TileLayer API (https://cloud.maptiler.com/) -> Many kind of maps
