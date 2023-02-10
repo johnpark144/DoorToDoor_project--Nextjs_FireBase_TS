@@ -2,8 +2,9 @@
 - Website Link : https://port-0-doortodoor-1jx7m2gldonqeix.gksl1.cloudtype.app/
 - Backend (firebase for me) : https://console.firebase.google.com/u/0/project/doortodoor-e6943/firestore/data/~2FmarkedDataDetail~2F7Om2QvmfVib5f9vD46Ib
 - Creater : Yeonghwan Park (John Park)
-- Main Tools : Next JS (ver 13), FireBase, TypeScript
-- Sub Tools : CSS(Tailwind CSS), Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
+- Main Tools : Next JS (ver 13), TypeScript
+- CSS : Tailwind CSS
+- Sub Tools : FireBase, Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
 
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
 - TileLayer API (https://cloud.maptiler.com/) -> Many kind of maps
@@ -17,7 +18,7 @@ since they were bothered. so I first of all learned to handle Map and Calender a
 - Date of debugging : Jan 19th ~ Jan 20th 2023 (clean code, fix error, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone)
 - Date of upload : <strike>Jan 20th</strike> -> Feb 3rd 2023
-- Date of deployment : Jan 20th 2023
+- Date of 1st deployment : Jan 20th 2023
 - Deployment Tool : <strike>Vercel</strike> ->  Cloudtype
 
 # Ps, FYI
