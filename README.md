@@ -13,8 +13,16 @@
 - Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither,
 since they were bothered. so I first of all learned to handle Map and Calender and then came to build this web site for both end by my experience and idea, You can check markers that other visited and You can also marked and leave some comment. Marker will fade overtime, and disapear over 2years.
 
-- Comment language : English
+- Hard Part and Solution :
+1. It was my first time to use map library and Api about geography, and I was worried about how to save latitude and longitude information in Firebase database. It took me a day to find out that there was a separate data storage format for latitude and longitude.
+2. I found out that saving each datas every single time to click the locations is too frequent and inefficient. so I came to save them in array format.
+but in that sense, It was hard to input detail datas about that location and update and delete it,
+so the solution was putting all arrays in one array with latitude and longitude together and then using map-method to spread the array so that only user who input the latitude and longitude can create, update or delete.
 
+- Things To Fix or Improve : need to get this clean code, better English-comment's grammer, Change the common password for personal use
+- Name why : The meaning of "door to door" has going around houses, so I named it for it fits the purpose of this web site and I came up with a good idea for the logo 
+
+- Comment language : English
 - Date of creation : Jan 11th ~ Jan 19th 2023
 - Date of debugging : Jan 19th ~ Jan 20th 2023 (clean code, fix error, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone)
