@@ -21,6 +21,7 @@ but in that sense, It was hard to input detail datas about that location and upd
 so the solution was putting all arrays in one array with latitude and longitude together and then using map-method to spread the array so that only user who input the latitude and longitude can create, update or delete.
 
 - Things To Fix or Improve : need to get this clean code, better English-comment's grammer, Change the common password for personal use
+- Login Must ? : Yes (only sign-up not oath for personal-use)
 - Name why : The meaning of "door to door" has going around houses, so I named it for it fits the purpose of this web site and I came up with a good idea for the logo 
 
 - Comment language : English
