@@ -1,33 +1,32 @@
+<a href="README_KOR.md">한글로 보기(KOR)</a>
 # DoorToDoor_project--Nextjs_FireBase_TS
-- Website Link : https://port-0-doortodoor-1jx7m2gldonqeix.gksl1.cloudtype.app/
-- Backend (firebase for me) : https://console.firebase.google.com/u/0/project/doortodoor-e6943/firestore/data/~2FmarkedDataDetail~2F7Om2QvmfVib5f9vD46Ib
-- Creater : Yeonghwan Park (John Park)
-- Main Tools : Next JS (ver 13), TypeScript
+- 웹사이트 링크 : https://port-0-doortodoor-1jx7m2gldonqeix.gksl1.cloudtype.app/
+- 백엔드 (파이어베이스 for me) : https://console.firebase.google.com/u/0/project/doortodoor-e6943/firestore/data/~2FmarkedDataDetail~2F7Om2QvmfVib5f9vD46Ib
+- 만든이 : 박영환(John Park)
+- 주요 도구 : Next JS (ver 13), TypeScript
 - CSS : Tailwind CSS
-- Sub Tools : FireBase, Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
-- Idea or Not : Idea 95%, Clone 5% (only some of how to use Nominatim API)
-- Bundler : Webpack
+- 보조 도구 : FireBase, Redux(toolkit), React-leaflet, Nominatim API, TileLayer, React-date-range, React-timeago, PhotoShop
+- 아이디어 여부 : 아이디어 95%, 클론 5% (Nominatim API를 쓰는 방법에 대해서만)
+- 번들러 도구 : Webpack
 
-- Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
-- TileLayer API (https://cloud.maptiler.com/) -> Many kind of maps
+- Nominatim API (https://nominatim.org/release-docs/latest/) -> 주소를 찾기 위해
+- TileLayer API (https://cloud.maptiler.com/) -> 많은 종류의 맵들
 
-- Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither,
-since they were bothered. so I first of all learned to handle Map and Calender and then came to build this web site for both end by my experience and idea, You can check markers that other visited and You can also marked and leave some comment. Marker will fade overtime, and disapear over 2years.
+- 설명 : 미국에서 나와 내 지인들은 집집마다 돌아다니며 설문조사를 하는일을 한적 있었습니다, 그러던 중에 어느날 나는 지인들이 최근에 이미 방문한 집에 나도모르게 다시 갔었고, 이게 너무 자주 발생해서 시간낭비라 생각이 되었습니다. 게다가 이웃들의 관점에서도 짜증나겠다 싶었습니다. 그래서 저는 먼저 지도와 달력을 다루는 API를 배웠고, 이 둘의 불편함을 해소하기위해 경험과 아이디어를 기반으로 이 사이트를 짓게 되었습니다. 다른 사람이 방문한 곳을 확인 할 수 있고, 나도 그것을 마킹하고 코멘트를 남길 수 있습니다. 마커는 시간이 지나며 흐려질 것이고, 2년이 지나면 사라질 것입니다.
 
-- Hard Part and Solution :
-1. It was my first time to use map library and Api about geography, and I was worried about how to save latitude and longitude information in Firebase database. It took me a day to find out that there was a separate data storage format for latitude and longitude.
-2. I found out that saving each datas every single time to click the locations is too frequent and inefficient. so I came to save them in array format.
-but in that sense, It was hard to input detail datas about that location and update and delete it,
-so the solution was putting all arrays in one array with latitude and longitude together and then using map-method to spread the array so that only user who input the latitude and longitude can create, update or delete.
+- 어려웠던점 및 해결책 :
+1. 지도 라이브러리와 지리에 대한 API를 사용하는 것은 처음이었고, 파이어베이스 DB에 어떻게 위도와 경도 정보를 저장할지 고민했었습니다. 그 후 위도와 경도에 대해 별도의 데이터 저장 형식이 있다는 것을 하루종일 시간낭비 하고 나서야 알게되었습니다.
+2. 위치를 클릭할때 마다 데이터를 매번 저장하는 것은 너무 빈번하고 비효율적이라는 것을 알게 되었고 그래서 배열형식으로 저장하기로 했습니다. 하지만 그런 방식에선 그 위치에 대한 상세한 데이터를 입력하고 업데이트하고 삭제하는 것은 어려웠습니다.
+그래서 생각해낸 해결책은 경도와 위도의 데이터를 가진 모든 배열을 가져와 하나로 합쳐서 고차함수 map을 사용하여 배열을 한번에 펼치므로써, 해당 유저만 상세한 데이터를 입력하고 업데이트하고 삭제할수 있도록 하게 하였다.
 
-- Things To Fix or Improve : need to get this clean code, better English-comment's grammer, Change the common password for personal use
-- Login Must ? : Yes (only sign-up not oath for personal-use)
-- Name why : The meaning of "door to door" has going around houses, so I named it for it fits the purpose of this web site and I came up with a good idea for the logo 
+- 고쳐야 하거나 개선이 필요한 점 : 클린코드로 바꾸기, 알아보기 쉬운 영어주석, 전체 비밀번호를 개인사용을 위해 바꾸기 (현재 : 1948)
+- 로그인 필수 ? : Yes (개인 사용위해 SNS 로그인은 부적합하다 판단하여, 오직 회원가입 한 사람만)
+- 프로젝트 이름 이유 : "door to door"의 의미는 "집집마다 돌아다니다" 라는 의미를 내포하고 있습니다. 그래서 이 웹사이트의 목적에 맞게 이름을 지었고, 그 이름에 맞는 좋은 로고 아이디어가 떠올랐습니다
 
-- Comment language : English
+- 주석 언어 : 영어
 - Date of creation : Jan 11th ~ Jan 19th 2023
-- Date of debugging : Jan 19th ~ Jan 20th 2023 (clean code, fix error, comment)
-- (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone)
+- 만든기간 : 2023년 1월 11일 ~ 2023년 1월 19일
+- 디버깅기간 : 2023년 1월 19일 ~ 1월 20일 (클린코드, 오류 점검, 주석)
 - Date of upload : <strike>Jan 20th</strike> -> Feb 3rd 2023
 - Date of 1st deployment : Jan 20th 2023
 - Deployment Tool : <strike>Vercel</strike> ->  Cloudtype
