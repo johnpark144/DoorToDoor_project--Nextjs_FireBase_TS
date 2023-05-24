@@ -26,52 +26,50 @@
 - 주석 언어 : 영어
 - 만든기간 : 2023년 1월 11일 ~ 2023년 1월 19일
 - 디버깅기간 : 2023년 1월 19일 ~ 1월 20일 (클린코드, 오류 점검, 주석)
-- Date of upload : <strike>Jan 20th</strike> -> Feb 3rd 2023
-- Date of 1st deployment : Jan 20th 2023
-- Deployment Tool : <strike>Vercel</strike> ->  Cloudtype
+- 처음 깃허브 올린날 : 2023년 1월 20일
+- 배포한 날: <strike>2023년 1월 20일</strike> -> 2월 3일
+- 배포 도구 : <strike>Vercel</strike> ->  Cloudtype
 
 # Ps, FYI
-- Since I will personally use this cusomizing my needs, I didn't allow Oauth-signup,
- and plus I made common password to let only my people know for the site security, Sorry for disconvenience and Please bear with me
-- I will deploy 2 websites with this, one for public and portfolio and one for my people who will personally use with 2 different common password and DataBase
-- Public Website's Common Password is "1948"
+- 이 사이트는 내 필요에 맞게 개인적으로 사용할 생각으로 만든 것이라, Oauth 회원가입 기능은 넣지 않았습니다. 그리고 따로 전체 비밀번호를 넣은 이유는 특정 공개용 같은 사이트를 만들어 안전하게 내 지인들만 알게 하기 위해서 구현하였습니다. 불편을 겪게해서 죄송합니다;;
+- 공개된 이 웹사이트의 전체 비밀번호는 "1948" 입니다.
 
-# Functions
-- Responsive Website
-- Auth (SignIn, Login, Logout)
-- Spinner Loading
-- Navigation bar(Header)
-- Map (leaflet, OpenStreetMap)
-- Search Address and Locate a pin in the Map
-- Swicth Map (Regular, Satellite) 
-- Edit Mode
-1) Date pick from Calender and input the Date (Default : today)
-2) Switch Marker Color (Blue marker or Green marker)
-3) Putting marker on the Map and Save it
-4) Cancel
-5) Return
-- Popup on marker (Date, Timeago, Pointer's Name, Info that Pointer input)
-- Popup Edit Mode (Edit Detail Info, Delete Marker -> only In case of you being Pointer) 
-- Marker opacity : over 6 month ->  0.6 / over 1 year ->  0.3 / over 2 year -> disapear
+# 기능
+- 반응형 웹 사이트
+- 인증부분 (회원가입, 로그인, 로그아웃)
+- 스피너 로딩중
+- 네비게이션바(헤더)
+- 지도 (leaflet, OpenStreetMap)
+- 주소 검색과 지도에 핀 위치시키기
+- 지도 변경 (기본, 인공위성)
+- 수정 모드
+1) 날짜 선택 및 입력 (디폴트 : today)
+2) 마커 색 변경 (파란 마커 or 초록 마커)
+3) 지도에 마커를 놓고 저장하기
+4) 취소
+5) 되돌리기
+- 마커에 뜨는 팝업 (날짜, Timeago, 지정한 자의 이름, 입력한 정보)
+- 수정모드의 팝업 (디테일 정보 수정, 마커 삭제 -> 내가 입력한 경우에만) 
+- 마커 선명도 : 6개월 초과 ->  0.6 / 1년 초과 ->  0.3 / 2년 초과 -> 삭제
 
-# Sample pictures
-- Home and Search
+# 샘플 사진
+- 홈과 검색
 ![Home,Search](https://user-images.githubusercontent.com/106279616/213786393-cbe7d301-83e3-4a2f-9c6d-82d8c04fc02f.png)
-- Edit Mode
+- 수정 모드
 ![Edit](https://user-images.githubusercontent.com/106279616/213785475-98868196-84a2-488d-b783-e033125719c5.png)
-- FireBase
+- 파이어베이스
 ![Firebase](https://user-images.githubusercontent.com/106279616/213785520-718a13bd-81ab-4a1f-a9c8-8a1e89e0cccf.png)
 
 
-# Sample videos
-<h3> 1. Search, Switch Map </h3>
+# 샘플 비디오
+<h3> 1. 검색, 지도 변경 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/213798582-96fc4ded-baf3-4d41-83b8-53490b474d47.mp4"></video>
 
-<h3> 2. Put Markers (Edit Mode) </h3>
+<h3> 2. 마커 놓기 (수정모드) </h3>
 <video src="https://user-images.githubusercontent.com/106279616/213798659-a80fa925-4195-42de-995b-360d86bdd2bd.mp4"></video>
 
-<h3> 3. Delete, Edit Detail, View in Deferent Account </h3>
+<h3> 3. 삭제, 디테일 부분 수정, 다른 계정으로 보기 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/213798727-036a3e73-2a53-4036-906b-5126d46f9640.mp4"></video>
 
-<h3> 4. Signup, Login </h3>
+<h3> 4. 회원가입, 로그인 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/213798790-f75abdaa-3d70-4982-a36b-ef14e9e17aeb.mp4"></video>
