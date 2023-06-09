@@ -1,4 +1,4 @@
-<a href="README_KOR.md">한글로 보기(KOR)</a>
+---------- <a href="README_KOR.md">한글로 보기(KOR)</a> ----------
 # DoorToDoor_project--Nextjs_FireBase_TS
 - Website Link : https://port-0-doortodoor-1jx7m2gldonqeix.gksl1.cloudtype.app/
 - Backend (firebase for me) : https://console.firebase.google.com/u/0/project/doortodoor-e6943/firestore/data/~2FmarkedDataDetail~2F7Om2QvmfVib5f9vD46Ib
