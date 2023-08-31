@@ -12,7 +12,7 @@
 - Nominatim API (https://nominatim.org/release-docs/latest/) -> To find address
 - TileLayer API (https://cloud.maptiler.com/) -> Many kind of maps
 
-- Explantion : I and My members used to do survey by door to door, Meanwhile I found it unconfortable that We unknowingly went to same house that someone already visited recently, so It was not reasonable at all but wasting time. on top of this, in the point of neighborhood, They also were not pleased on this neither, since they were bothered. so I first of all learned to handle Map and Calender and then came to build this web site for both end by my experience and idea, You can check markers that other visited and You can also marked and leave some comment. Marker will fade overtime, and disapear over 2years.
+- Explantion : I and My members used to do surveys door to door, Meanwhile, I found it uncomfortable that We unknowingly went to the same house that someone already visited recently, so It was not reasonable at all but a waste of time. on top of this, in the point of neighborhood, They also were not pleased with this either, since they were bothered. so I first learned to handle Map and Calendar and then came to build this website for both ends by my experience and idea, You can check markers that others visited and You can also mark and leave some comments. The marker will fade over time and disappear over 2years.
 
 - Hard Part and Solution :
 1. It was my first time to use map library and Api about geography, and I was worried about how to save latitude and longitude information in Firebase database. It took me a day to find out that there was a separate data storage format for latitude and longitude.
